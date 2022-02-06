@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header section */
+
+header{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #dbf2ed;
+
+}
+
+.logo{
+	width: 25%;
+	float: left;
+}
+
+.logo img{
+
+}
+
+.menu{
+	width: 50%;
+	float: left;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+display: inline-block;
+margin-left: 68px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+.icons{
+	width: 25%;
+	float: left;
+}
+
+.icons ul{
+	list-style: none;
+}
+
+.icons ul li{
+	display: inline-block;
+}
+
+.icons ul li a{
+			background: black;
+			padding: 6px 8px;
+			color: #0087ff;
+			font-size: 21px;
+
+			
+}
+
+.banner{
+	background:url(../img/cover.jpg) no-repeat;
+	width: 100%;
+	float: left;
+	padding: 204px 0px;
+
+
+}
+
+.banner-one{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.banner-one h2{
+	color: #fff;
+	font-size: 80px;
+
+}
+
+.banner-one span{
+	display: block;
+	border-bottom: 2px solid #15a4fa;
+	width: 80%;
+	margin: 10px auto;
+
+}
+
+.banner-one p{
+		color: white;
+		font-size: 27px;
+		margin-bottom: 28px;
+}
+
+.banner-one-btn{
+	border: 1px solid #7400ff;
+	background: transparent;
+	font-size: 20px;
+	color: white;
+	padding: 5px 11px;
+	}
+
+
+
+	.service{
+	width: 100%;
+	float: left;
+	background-color: #b4dfdf;
+	padding: 63px 0px;
+	}
+
+	.service-one{
+		width: 33.33%;
+		float: left;
+		text-align: center;
+	}
+	.service-icon{
+	background: blue;
+	width: 35px;
+	height: 37px;
+	line-height: 37px;
+	color: white;
+	margin: 0 auto;
+
+	}
+	.service-one h2{
+
+	}
+
+	.service-one p{
+
+	}
+
+
+
+.descritpion{
+	background-color: #white;
+	width: 100%;
+	float: left;
+	padding: 87px 0px
+
+}
+
+	.descritpion-short{
+	width: 100%;
+	text-align: center;
+	margin: 22px auto;
+	}
+
+	.descritpion-short h3{
+
+	}
+
+	.descritpion-short p{
+
+	}
+
+	.protfolio-text{
+		text-align: center;
+		padding: 27px;
+	}
+
+	.protfolio-text h3{
+		font-size: 38px;
+	}
+
+	.protfolio-text p{
+		
+	}
+	.protfolio{
+		width: 100%;
+		float: left;
+	}
+
+	.protfolio-one{
+		width: 33.3%;
+		float: left;
+	}
+
+	.protfolio-two{
+		width: 33.3%;
+		float: left;
+	}
+
+	.protfolio-three{
+		width: 33.3%;
+		float: left;
+	}
+
+
+	.subscription{
+	background: url(../img/subscription-transparent-cover.png) no-repeat;
+	width: 100%;
+	float: left;
+	padding: 247px 0px;
+	}
+
+	.subscription2{
+		background:url(../img/subscription-cover.jpg) no-repeat;
+		width: 100%;
+		float: left;
+		padding: 204px 0px;
+	}
+
+	.input{
+		padding: 5px 541px
+	}
+
+	.subscription-text h3{
+		padding: 5px 541px;
+		color: white;
+		font-size: 36px;
+	}
+
+	.subscription-text p{
+		padding: 5px 541px
+	}
+
+
+	.submit_btn2 {
+		
+	}
